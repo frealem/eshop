@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>full stack e-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav bar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <div  class="logo-img"><a class="navbar-brand" href="#"><img src="cyanMarketLogoC2.png"  alt="logo"></a></div> 
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-buttons nav-ho" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success " type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav> 
+     <!--login form section-->
+      <section class="my-5 py-5">
+        
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="contact-div">
+            <h3>Contact <span>Us</span></h3>
+            <form action="">
+                <label for="contact-email" class="mb-2">E-mail</label>
+                    <input type="email" class="form-control mb-lg-3 mb-md-2 mb-sm-2 " id="contact-email" placeholder="cyanmarket@gmail.com" required>
+    
+                    <label for="contact-phone" class="mb-2">phone</label>
+                    <input type="tel" class="form-control mb-lg-3 mb-md-2 mb-sm-2 " id="ch-email" placeholder="+251966782412" required>
+                    <textarea name="cont-text form-control mb-3 mt-3 " id="cont-textarea" cols="67" rows="5" placeholder="typing ......"></textarea>
+
+                    <button class="change-btn mt-xl-5">Send</button>
+            </form>
+           </div>
+      </div>
+
+        </div>
+    </section>
+        
+
+    <!--footer-->
+<footer class="footer fixed">
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="foot1">
+            <h3>Contact Us</h3>
+            <ul class="contact">
+              <li><a href="" class="cnt-list"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+251966782412</h6></a></li>  
+               <li><a href="" class="cnt-list"> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;frealem@outlook.com</a></li>
+              <li> <a href="" class="cnt-list"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;http://instgram.com</a></li> 
+            </ul>
+            
+
+             </div>
+        </div>
+        <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+          <div class="link">
+            <h4>Quick Link</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="cnt-list">Home</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">Service</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="service">
+            <h4>Service</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="cnt-list">Marketing</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">Branding</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">Web Design</a>
+              </li>
+              <li>
+                <a href="#" class="cnt-list">Graphics Design</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="ecommerce">
+            <h4>E-shop</h4>
+            <div>
+              <label for="Newsletter" class="form-label">Subscribe To Our Newsletter</label>
+              <input type="text" class="form-control" Placeholder="Enter Your Email">
+              <button class="btn btn-danger mt-3">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="copyright">
+          <p>Developed and maintained by <a href="#" target="_blank">company</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

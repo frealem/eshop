@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins&display=swap');
+.nav-buttons{
+    margin-left:40%;
+
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Poppins sans-serif;
+}
+h1{
+    font-size:2.5rem;
+    font-weight: 800;
+
+}
+h2{
+    font-size:1.8rem;
+    font-weight: 700;
+}
+h3{
+    font-size:1.6rem;
+    font-weight: 600;
+}
+h4{
+    font-size:1.4rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+h6{
+    color:white; 
+}
+.nav-bars{
+    font-size: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0  10px 20px 40px rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.nav-bars img{
+    width: 100px;
+    height: 30px;
+}
+.nav-bars .logo-img{
+    height:5%;
+    width:5%;
+}
+#navbarNav .navbar-nav .nav-item .nav-link{
+    color:white;
+}
+#navbarNav .navbar-nav  .nav-item .nav-link:hover{
+    color:rgb(98, 241, 241);
+}
+.me-2:hover{
+    background:rgb(98, 241, 241);
+    color:white;
+}
+.d-flex .btn:hover{
+    background:rgb(98, 241, 241);
+    color:white;
+    border-width: 0;
+    border-radius: 45%;
+}
+.d-flex .btn{
+    border-color: aliceblue;
+    color:white;
+    background-color:rgb(109, 108, 108);
+}
+.nav-ho .navbar-nav .nav-link a:active{
+    color:rgb(3, 27, 27);
+}
+
+#homei{
+    background-image: url("aaa.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y:0 ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+
+}
+#homei h1 span{
+color:rgb(98, 241, 241);
+}
+#product img{
+    margin-bottom: 40px;
+}
+#shopbtn{
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:right;
+    border-width: 0;
+}
+#shopbtn:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+   
+}
+.details .shopbtn {
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:right;
+    border-width: 0;
+}
+.details .shopbtn:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+   
+}
+#newshop .one img:hover {
+   background: #a9a3a3;
+   opacity: 0.3;
+}
+#newshop .one h2 span {
+  
+  color:red;
+  font-style: italic;
+  font-family: 'Segoe UI';
+}
+#newshop .one h2 {
+    padding-left:50px;
+    
+}
+#newshop .one .shopbtn {
+    align-self: center;
+}
+.product .buy {
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 0;
+    margin-left: 10px;
+   
+}
+.product .buy:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+   
+}
+#newshop .one img{
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+#newshop .one{
+    position: relative;
+}
+#newshop .one .details{
+    position: absolute;
+    left:0;
+    top:0;
+    font-weight: bold;
+}
+.product{
+    margin-bottom: 60px;
+}
+.product img{
+    width: 100%;
+    height: 75%;
+    box-shadow: 0px 5px 5px 5px rgb(141, 211, 211);
+    margin-bottom: 10px;
+}
+.product .stars .golden {
+    color: #e8b304e6;
+}
+.product .stars  .white {
+    color: rgb(231, 231, 231);
+}
+.footer{
+    left:0;
+    top:0;
+    margin:0;
+}
+.footer .foot1{
+    color:white;
+}
+.ecommerce{
+    color:white;
+}
+.copyright{
+    color:white;
+}
+.service{
+    color:white;
+}
+.link{
+    color:white;
+}
+.foot1 ul li {
+    text-decoration: none;
+}
+.footer a .cnt-list{
+    text-decoration: none;
+}
+.small-img-group{
+    display: flex;
+    justify-content:space-between;
+}
+.small-col-img{
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+ .each-pro-detail .cartbtn{
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 0;
+    margin-left: 10px;
+   
+}
+ .each-pro-detail .cartbtn:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+   
+}
+.each-pro-detail .inputcart{
+   
+    border-color: white;
+    color: rgb(53, 52, 52);
+}.each-pro-detail .inputcart:focus{
+ 
+    border-width:5px;
+    border-color: cyan;
+}
+.each-pro-detail .inputcart:hover{
+    border-width:5px;
+    border-color: cyan;
+}
+.each-pro-detail h4,span{
+    margin-top: 30px;
+    padding-left: 30 px;
+}
+.each-pro-detail{
+    margin-left: 60px;
+}
+#related-feature .related-f{
+    margin-left:40% ;
+    margin-bottom: 20px;
+}
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart .product-info{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cart th{
+    text-align: left;
+    padding:5px 10px;
+    color:white;
+    background-color: cyan;
+}
+.cart td{
+    padding: 10px 20px;
+}
+.cart td img{
+    width: 80px;
+    height:80px;
+    margin-right: 10px;
+}
+.cart .remove-btn{
+    color:cyan;
+    text-decoration: none;
+    font-size:16px;
+}
+.cart .edit-btn{
+    color:cyan;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cart .product-info p{
+    margin:3px; 
+}
+.cart-total{
+    display:flex;
+    justify-content:flex-end;
+}
+.cart-total table{
+    width:50%;
+    border-top: 2px solid cyan;
+    float:right;
+   
+}
+td:last-child{
+text-align: right;    
+} 
+.check-b-div{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.check-button{
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+   
+}
+ .check-button:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+    margin-bottom: 5px;
+   
+}
+
+.log-form{
+    display:flex;
+}
+.log-form .login-text{
+    align-items: center;
+    margin: 20px;
+}
+.log-form .login-btn{
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 0;
+    margin-left: 10px;
+   
+}
+.log-form .login-btn:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+    font-weight: 900;
+   
+}
+.form-part{
+    display:flex;
+    justify-content: center;
+   margin:19% 0px 5% 30%;
+   width: 500px;
+   background-color: rgb(185, 234, 234);
+   border-radius: 8% 8%;
+
+}
+.form-part legend{
+display:flex;
+justify-content: center;
+font-weight: 900;
+font-size: 20px;
+color: cyan;
+}
+.form-label{
+    font-weight: 600;
+    font-size: 16px;
+}
+.form-text{
+    margin-left: 15px;
+    font-size: smaller;
+    font-style: oblique;
+}
+
+.form-part .form-control:focus{
+    border-bottom-width: 5px;
+    border-color: cyan;
+}
+.form-part p{
+font-style: oblique;
+}
+
+.form-group .form-control:focus{
+    border-bottom-width: 5px;
+    border-color: cyan;
+}
+
+#account-form .change-btn{
+    background-color: cyan;
+    color: white;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 0;
+    margin-left: 10px;
+}
+#account-form .change-btn:hover{
+    background-color: white;
+    color:cyan;
+    padding: 5px 15px;
+    text-align:left;
+    border-width: 4px;
+    border-color: cyan;
+    border-radius: 25%;
+}
+ .whole h3{
+    color:cyan;
+    font-weight: 600;
+}
+ .whole h3 span{
+    color: black;
+ }
+ 
+ .whole p a{
+    text-decoration: none;
+ }
+ .whole p span{
+    color:cyan;
+ }
+ .whole .account-arrange{
+    margin-top: 0;
+ }
+
+ /*check out*/
+ #account-form{
+    display:flex;
+ }
+#account-form .form-group1{
+float: left;
+margin-top: 30px;
+padding-top: 10px;
+width: 50%;
+margin-left: 20px;
+}
+#account-form  .form-group2{
+    float:right;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 50%;
+}
+ .ch-text{
+  display: flex;
+  justify-content: center;
+}
+
+#account-form .form-group1 input{
+width:70%;
+}
+#account-form .form-group1 input:focus{
+        border-bottom-width: 5px;
+        border-color: cyan;
+  
+    }
+#account-form .form-group2 input{
+    width:70%;
+    }
+#account-form .form-group2 input:focus{
+        border-bottom-width: 5px;
+        border-color: cyan;
+    }
+    .ch-text h3{
+        color: cyan;
+        border-bottom: 9px solid black;
+        border-radius: 8px;
+    }
+    .ch-text span{
+        color: black;
+        border-bottom: 11px solid cyan;
+        border-radius: 8px;
+    }
+    /* contact  */
+    .contact-div{
+        margin-left: 30%;
+    }
+    .contact-div input{
+width:60%;
+    }
+    .contact-div h3{
+        color: cyan;
+        width: 18%;
+        border-bottom: 9px solid black;
+        border-radius: 8px;
+        margin-left: 10%;
+    }
+
+    .contact-div h3 span{
+        color:black;
+        border-bottom: 9px solid cyan;
+        border-radius: 8px; 
+    }
+
+    .contact-div input:focus{
+border-width: 5px;
+border-color: cyan;
+    }
+
+    .contact-div .change-btn{
+        background-color: aqua;
+        color: white;
+        padding: 5px 15px;
+        text-align:left;
+        border-width: 0;
+        margin-left: 10px;
+    }
+    .contact-div .change-btn:hover{
+        background-color: white;
+        color:cyan;
+        padding: 5px 15px;
+        text-align:left;
+        border-width: 4px;
+        border-color: cyan;
+        border-radius: 25%;
+    }
+
+    .contact-div textarea:focus{
+        border-width: 5px;
+        border-color: cyan;
+            }
